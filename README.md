@@ -1,5 +1,7 @@
 # Starter React Typescript Ethers.js Hardhat Project
 
+# From [Github Repository](https://github.com/ChainShot/hardhat-ethers-react-ts-starter)
+
 This repo contains a Hardhat and React Dapp starter project. The React Dapp in the `frontend` dir of this repo interacts with Hardhat's example `Greeter.sol` smart contract running on a local blockchain. The Hardhat `Greeter.sol` example contract is the boilerplate contract that Hardhat creates when creating a new Hardhat project via `yarn hardhat init`.
 
 The React Dapp in this repo looks like this:
@@ -42,3 +44,5 @@ yarn hardhat help
 yarn hardhat node
 yarn hardhat test
 ```
+
+
