@@ -1,7 +1,5 @@
 # Starter React Typescript Ethers.js Hardhat Project
 
-# From [Github Repository](https://github.com/ChainShot/hardhat-ethers-react-ts-starter)
-
 This repo contains a Hardhat and React Dapp starter project. The React Dapp in the `frontend` dir of this repo interacts with Hardhat's example `Greeter.sol` smart contract running on a local blockchain. The Hardhat `Greeter.sol` example contract is the boilerplate contract that Hardhat creates when creating a new Hardhat project via `yarn hardhat init`.
 
 The React Dapp in this repo looks like this:
@@ -19,7 +17,7 @@ This repo can be useful to anyone looking to get a local Ethereum blockchain run
 
 Additionally, this repo is a companion project to [ChainShot](https://www.chainshot.com)'s [How to Build a React Dapp with Hardhat and MetaMask](https://medium.com/p/9cec8f6410d3) Medium article. The article and this GitHub repo are recommended for anyone wanting to build up their web3 skills and are helpful resources for anyone interested in joining any of [ChainShot's bootcamps](https://www.chainshot.com/bootcamp).
 
-The smart contract and Hardhat node part of this project were created by installing the [Hardhat npm package](https://www.npmjs.com/package/hardhat) and bootstrapping a Hardhat project by running: `yarn hardhat init`. For more details you can read more in the [Hardhat README doc](https://github.com/nomiclabs/hardhat). The `frontend` part of this project was created using [Create React App](https://github.com/facebook/create-react-app).
+The smart contract and Hardhat node part of this project were created by installing the [Hardhat npm package](https://www.npmjs.com/package/hardhat) and bootstrapping a Hardhat project by running: `yarn hardhat init`.
 
 Pull this project down from GitHub, cd into the project directory and run the following commands to get setup and running.
 
@@ -31,7 +29,14 @@ yarn hardhat node
 
 The commands above will install the project dependencies, compile the sample contract and run a local Hardhat node on port `8545`, using chain id `31337`.
 
-After running the above tasks checkout the frontend [README.md](https://github.com/ChainShot/hardhat-ethers-react-ts-starter/tree/main/frontend/README.md) to run a React Dapp using ethers.js that will interact with the sample contract on the local Hardhat node.
+After running the above tasks, Use:
+
+    cd to the frontend directory of this project
+    Run yarn to install the necessary dependencies
+    yarn start to startup the webserver
+    Visit localhost:3000 in your browser to interact with the browser Dapp and the Greeter contract running on your local Hardhat blockchain.
+
+to run a React Dapp using ethers.js that will interact with the sample contract on the local Hardhat node.
 
 Some other hardhat tasks to try out are:
 
